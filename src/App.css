@@ -10,7 +10,9 @@ input {
   text-align: center;
 }
 .App {
+  background: url("/kanto.jpg");
   text-align: center;
+  cursor: url("/master_ball.png"), auto;
 }
 
 .App-logo {
@@ -63,7 +65,8 @@ input {
   justify-content: space-around;
 }
 .navbar {
-  background-color: red;
+  background: url("/kanto.jpg");
+  /* background-color: red; */
   height: 15vh;
   width: 100vw;
 }
@@ -73,8 +76,9 @@ input {
   height: 80vh;
 }
 .right-bar {
+  background: url("/kanto.jpg");
   color: antiquewhite;
-  background-color: #282c34;
+  background-color: #tan;
   width: 25vw;
   height: 80vh;
   margin-left: 2vw;
@@ -87,7 +91,8 @@ input {
 .screen {
   width: 45vw;
   height: 50vh;
-  background-color: silver;
+
+  background-color: tan;
   margin: 2vh;
   justify-content: space-around;
 }
@@ -98,18 +103,18 @@ input {
 .bottom-box {
   width: 50vw;
   height: 20vh;
-  background-color: silver;
+  background-color: tan;
 }
 .nav-button {
   width: 8vw;
   height: 6vh;
 }
 .team-button {
-  background-color: #4776f8;
+  background-color: tan;
   color: antiquewhite;
 }
 .history-button {
-  background-color: #fffc0b;
+  background-color: tan;
   color: #282c34;
 }
 .error {
@@ -118,7 +123,8 @@ input {
 
 .pokemon-card {
   color: #282c34;
-  background-color: silver;
+
+  background-color: tan;
   width: 15vw;
   height: 25vh;
   margin: 3px;

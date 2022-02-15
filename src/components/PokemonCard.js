@@ -3,7 +3,7 @@ export default function PokemonCard({
   isTeamCard,
   index,
   handleRemoveFromTeamClick,
-  handleHistoryCardClick,
+  handleHistoryCardClick
 }) {
   return (
     <div

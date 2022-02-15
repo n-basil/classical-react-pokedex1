@@ -5,11 +5,12 @@ export default function RightSideBar({
   myTeam,
   searchHistory,
   handleRemoveFromTeamClick,
-  handleHistoryCardClick,
+  handleHistoryCardClick
 }) {
   let properHtml = showTeam ? (
     <div className="my-team">
       <h1>MY TEAM</h1>
+      {console.log("MY TEAM: ", myTeam)}
       {myTeam.map((pokemon, index) => (
         <PokemonCard
           pokemon={pokemon}
